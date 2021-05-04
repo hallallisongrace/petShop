@@ -13,24 +13,7 @@ var shop = [
     var postHTML = " "
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
   // i is less than something.something that reperesents the array
   
