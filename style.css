@@ -126,6 +126,7 @@
 
 .carousel-inner img {
   margin: auto;
+  
 }
 
 
@@ -285,16 +286,9 @@ footer .social-icons {
   background-repeat: no-repeat no-repeat;
 } 
 
-/* div.card-body {
-  background-image: url("./AnimalPhotos/whitecat.jpeg");
-} */
-
-
 div.card-body {
-  
   z-index: 1;
-  
-}
+} 
 
 div.offerings {
   background-image: url("./AnimalPhotos/whitecat.jpeg");
@@ -303,9 +297,19 @@ div.offerings {
 
 
 
+div.servicesintro{
+  background-image: url("./AnimalPhotos/vethands.jpeg");
+  background-repeat: no-repeat;
+}
 
-
-
+#vethands{
+  opacity: 0.5;
+  z-index: -1;
+  height: 100
+  width: auto;
+  height: 100vh;
+  
+}
 
 
 
