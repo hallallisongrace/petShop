@@ -27,10 +27,8 @@ div.navbar-nav{
   font-size: 20px;
   text-decoration: none;
   width: 100%;
-  
-
-  
 }
+
 
 a {
   color: #f2f2f2;
@@ -306,16 +304,13 @@ section{
   height: 1000px;
 }
 section.offerings{
-  background-image: url("./AnimalPhotos/whitecat.jpeg");
+  background-image: url("./AnimalPhotos/catadoption2.jpeg");
+  
 }
 div.card-body {
   z-index: 1;
 } 
 
-div.offerings {
-  background-image: url("./AnimalPhotos/whitecat.jpeg");
-  background-repeat: no-repeat;
-}
 
 
 
