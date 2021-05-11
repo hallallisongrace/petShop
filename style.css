@@ -1,23 +1,57 @@
-
-
 .header-image{
   background-image: url('https://images.unsplash.com/photo-1581888227599-779811939961?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80');
   width: 100%;
   height: 110vh;
   background-size: 100% 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 61%, 0% 100%);
+  
 }
 
 .header {
-  padding: 10px;
+  padding: 60px;
   text-align: center;
   background: #9ED9CCFF;
   color: white;
-  font-size: 20px;
+  font-size: 35px;
   height: 200px;
+  width: 100%;
   font-family: 'Radley', serif;
- 
+  position: fixed;
+  z-index: 9998;
 }
+
+div.navbar-nav{
+  background-color: #FAA094FF;
+  font-family: 'Radley', serif;
+  padding: 14px 16px;
+  justify-content: space-between;
+  font-size: 20px;
+  text-decoration: none;
+  width: 100%;
+  
+
+  
+}
+
+a {
+  color: #f2f2f2;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .missionheader-image{
   background-image: url('./AnimalPhotos/boywithdog.png');
@@ -30,11 +64,11 @@
 }
 
 .missionheader{
-  padding: 10px;
+  padding: 60px;
   text-align: center;
   background: #9ED9CCFF;
   color: white;
-  font-size: 20px;
+  font-size: 35px;
   height: 200px;
   font-family: 'Radley', serif;
 }
@@ -52,45 +86,27 @@
 }
 
 .contactheader {
-  padding: 10px;
+  padding: 60px;
   text-align: center;
   background: #9ED9CCFF;
   color: white;
-  font-size: 20px;
+  font-size: 35px;
   height: 200px;
   font-family: 'Radley', serif;
+  position: fixed;
+  top: 50;
+  width: 100%;
 }
 
 
-.topnav {
-  background-color: #FAA094FF;
-  overflow: hidden;
-  height: 50px;
-}
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: 'Radley', serif;
-  
-}
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #088C76FF;
-  color: white;
-}
+
+
+
+
+
 
 .container{
   padding: 10px;
@@ -328,8 +344,8 @@ h3#pro-services {
 
 
 .professionalservicescircles{
-  background: #9ED9CCFF;
-  color: white;
+ 
+  color: black;
   font-family: 'Radley', serif;
 
 
