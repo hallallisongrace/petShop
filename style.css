@@ -27,6 +27,7 @@ div.navbar-nav{
   font-size: 20px;
   text-decoration: none;
   width: 100%;
+ 
 }
 
 
@@ -36,13 +37,18 @@ a {
 }
 
 
+.div.navbar.active{
+  background-color: #088C76FF
+  color: white;
+}
 
 
 
 
-
-
-
+.div.navbar.hover{
+  background-color: #ddd;
+  color: black;
+}
 
 
 
@@ -346,10 +352,22 @@ h3#pro-services {
 
 }
 
+#market{
+  padding-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+img.img-fluid {
+  height: 250px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
 
-
-
+div.product.col-sm-6.col-md-4.col-lg-3.col-2.mt-5{
+  margin-right: 0px !important;
+}
 
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-4/nat331.cur), auto !important;} /* End https://www.cursors-4u.com */
