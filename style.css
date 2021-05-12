@@ -16,7 +16,7 @@
   width: 100%;
   font-family: 'Radley', serif;
   position: fixed;
-  z-index: 9998;
+  z-index: 999;
 }
 
 div.navbar-nav{
@@ -26,8 +26,12 @@ div.navbar-nav{
   justify-content: space-between;
   font-size: 20px;
   text-decoration: none;
-  width: 100%;
- 
+  width: 100%; 
+}
+#wrapper{
+  display: flex;
+  
+  flex-wrap: wrap;
 }
 
 
@@ -37,16 +41,19 @@ a {
 }
 
 
-.div.navbar.active{
-  background-color: #088C76FF
-  color: white;
+.nav-link:active{
+  
+}
+
+#nav{
+  top: 175px;
+  width: 100%;
+  padding: 0; 
+  display: inline-block;
 }
 
 
-
-
-.div.navbar.hover{
-  background-color: #ddd;
+.nav-link:hover{
   color: black;
 }
 
@@ -64,7 +71,6 @@ a {
   width: auto;
   height: 120vh;
   position: relative;
-  opacity: 0.7
 }
 
 .missionheader{
@@ -356,6 +362,7 @@ h3#pro-services {
   padding-top: 200px;
   display: flex;
   flex-wrap: wrap;
+ 
 }
 
 img.img-fluid {
@@ -371,3 +378,18 @@ div.product.col-sm-6.col-md-4.col-lg-3.col-2.mt-5{
 
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-4/nat331.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+.professionalservicescircles{
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  
+ 
+}
+
+#servicescard{
+  padding-top: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
