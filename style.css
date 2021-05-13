@@ -319,7 +319,7 @@ footer .social-icons {
   height: max-content;
 } 
 section{
-  height: 1000px;
+  height: 1000px
 }
 section.offerings{
   background-image: url("./AnimalPhotos/catadoption2.jpeg");
@@ -365,7 +365,7 @@ h3#pro-services {
 }
 
 #market{
-  padding-top: 200px;
+  padding-top: 250px;
   display: flex;
   flex-wrap: wrap;
  
@@ -402,10 +402,27 @@ div.product.col-sm-6.col-md-4.col-lg-3.col-2.mt-5{
 
 
 #adopt{
-  padding-top: 200px;
+  
+  padding-top: 300px;
   display: flex;
   flex-wrap: wrap;
  
 }
 
 
+.professionalofferings{
+  padding-top: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+a.view {
+  color: #088C76FF
+}
+/* color: #088C76FF; */
+
+#vis{
+  color: #088C76FF;
+}

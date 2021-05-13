@@ -84,7 +84,7 @@ var shop = [
         var heading = '<div class="product col-sm-6 col-md-4 col-lg-3 col-2 mt-5">';
         var image = '<img class="img-fluid mb-4" src="' + shop[i].image + '"/';
         var price = '<div><p>' + '<span class="price"> $' + shop[i].price + '</span>';
-        var description = shop[i].description + '</p><a class="cart" href="#"><i class="fas fa-cart-plus"></i></a> <a class="view" href="#" target="_blank"> View Item</a></div></div>';
+        var description = shop[i].description + '</p><a class="cart" href="#"><i class="fas fa-cart-plus " id=\'vis\'></a></i> <a class="view pl-3" href="#" target="_blank"> View Item</a></div></div>';
         var concatThis = heading + image + price + description;
         postHTML = postHTML + concatThis
     }
