@@ -47,9 +47,7 @@ a {
 }
 
 
-.nav-link:active{
-  
-}
+
 
 #nav{
   top: 165px;
@@ -429,32 +427,272 @@ a.view {
 
 
 
-/* Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... } */
 
 
+/* extra small devices (phones) 600px and down*/
+@media (max-width: 600px) {
+  header{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+  header-image{
+    max-height: 100px;
+  }
+  navbar-nav{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+   .offerings{
+    max-height: 100px;
+  }
+  
+  .professionalservicescircles{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+  .mycarousel{
+    max-height: 100px;
+  }
 
-
-
-
-
-
- /* Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { ... } */
-
-
-
-img {
-  display:block;
-  margin: 0 auto;
-  width: clamp(800px, 100%, 1200px);
+.brandsintro{
+  max-height: 100px;
 }
 
-.content h1 {
-  font-size: clamp(2em, 4vw, 3.2em)
+.footer{
+  margin-top: 100px;
+  max-height: 100px;
+}
 
+.market{
+  margin-top: 100px;
+  max-height: 100px;
+}
+
+.professionalofferings{
+  margin-top: 100px;
+  max-height: 100px;
 }
 
 
 
 
+.container{
+  margin-top: 100px;
+  max-height: 100px;
+
+}
+ }
+
+/* small devices (portrait tablets and large phones, 600px and up*/
+ @media (min-width: 600px) {
+  header{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+  header-image{
+    max-height: 100px;
+  }
+  navbar-nav{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+   .offerings{
+    max-height: 100px;
+  }
+  
+  .professionalservicescircles{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+  .mycarousel{
+    max-height: 100px;
+  }
+
+.brandsintro{
+  max-height: 100px;
+}
+
+.footer{
+  margin-top: 100px;
+  max-height: 100px;
+}
+
+.market{
+  margin-top: 100px;
+  max-height: 100px;
+}
+
+.professionalofferings{
+  margin-top: 100px;
+  max-height: 100px;
+}
+
+
+
+.container{
+  margin-top: 100px;
+  max-height: 100px;
+
+}
+ }
+
+/* medium devices (landscape tablets, 768px and up*/
+ @media (min-width: 768px) {
+  header{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+  header-image{
+    max-height: 100px;
+  }
+  navbar-nav{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+   .offerings{
+    max-height: 100px;
+  }
+  
+  .professionalservicescircles{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+  .mycarousel{
+    max-height: 100px;
+  }
+
+.brandsintro{
+  max-height: 100px;
+}
+
+.footer{
+  margin-top: 100px;
+  max-height: 100px;
+}
+
+.market{
+  margin-top: 100px;
+  max-height: 100px;
+}
+
+.professionalofferings{
+  margin-top: 100px;
+  max-height: 100px;
+}
+
+
+
+
+.container{
+  margin-top: 100px;
+  max-height: 100px;
+
+}
+ }
+
+ /* large devices (laptops/desktops, 992px and up*/
+ @media (min-width: 992px) {
+  header{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+  header-image{
+    max-height: 100px;
+  }
+  navbar-nav{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+   .offerings{
+    max-height: 100px;
+  }
+  
+  .professionalservicescircles{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+  .mycarousel{
+    max-height: 100px;
+  }
+
+.brandsintro{
+  max-height: 100px;
+}
+
+.footer{
+  margin-top: 100px;
+  max-height: 100px;
+}
+
+.market{
+  margin-top: 100px;
+  max-height: 100px;
+}
+
+.professionalofferings{
+  margin-top: 100px;
+  max-height: 100px;
+}
+
+
+
+.container{
+  margin-top: 100px;
+  max-height: 100px;
+
+}
+ }
+
+/* extra large devices, large laptops and desktops, 1200px and up*/
+ @media (min-width: 1200px) {
+  header{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+  header-image{
+    max-height: 100px;
+  }
+  navbar-nav{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+   .offerings{
+    max-height: 100px;
+  }
+  
+  .professionalservicescircles{
+    margin-top: 100px;
+    max-height: 100px;
+  }
+  .mycarousel{
+    max-height: 100px;
+  }
+
+.brandsintro{
+  max-height: 100px;
+}
+
+.footer{
+  margin-top: 100px;
+  max-height: 100px;
+}
+
+.market{
+  margin-top: 100px;
+  max-height: 100px;
+}
+
+.professionalofferings{
+  margin-top: 100px;
+  max-height: 100px;
+}
+
+
+
+
+.container{
+  margin-top: 100px;
+  max-height: 100px;
+
+}
+ }
