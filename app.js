@@ -16,7 +16,7 @@ var shop = [
   {
     image: './BrandPhotos/dogfood.jpg',
     price: '25.99 ',
-    description: "Only Natural Pet Wholesome Homemade Stew Dehydrated Dog Food - Human Grade Formula That Contains Real; Wholesome Nutrition, Low Glycemic, Non-GMO"
+    description: "Only Natural Pet Wholesome Homemade Stew Dehydrated Dog Food - Human Grade Formula That Contains Real, Wholesome Nutrition; Low Glycemic, Non-GMO"
   },
     
   {
@@ -81,7 +81,7 @@ var shop = [
   
   
     for (var i=0; i < shop.length; i++){
-        var heading = '<div class="product items col-sm-12 col-md-4 col-lg-3 mt-5">';
+        var heading = '<div class="product items col-sm-12 col-md-4 col-lg-3 mt-5 justify-content: center">';
         var image = '<img class="img-fluid mb-4" src="' + shop[i].image + '"/';
         var price = '<div><p>' + '<span class="price"> $' + shop[i].price + '</span>';
         var description = shop[i].description + '</p><a class="cart" href="#"><i class="fas fa-cart-plus " id=\'vis\'></a></i> <a class="view pl-3" href="#" target="_blank"> View Item</a></div></div>';
