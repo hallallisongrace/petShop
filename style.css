@@ -17,12 +17,12 @@
   text-align: center;
   background: #9ED9CCFF;
   color: white;
-  font-size: 35px;
   height: 200px;
   width: 100%;
   font-family: 'Radley', serif;
   position: fixed;
   z-index: 999;
+  
 }
 
 div.navbar-nav{
@@ -426,273 +426,43 @@ a.view {
 }
 
 
-
-
-
-/* extra small devices (phones) 600px and down*/
-@media (max-width: 600px) {
-  header{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-  header-image{
-    max-height: 100px;
-  }
-  navbar-nav{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-   .offerings{
-    max-height: 100px;
-  }
+div.col-md-8.best-text-section {
+  position: relative;
   
-  .professionalservicescircles{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-  .mycarousel{
-    max-height: 100px;
-  }
-
-.brandsintro{
-  max-height: 100px;
-}
-
-.footer{
-  margin-top: 100px;
-  max-height: 100px;
-}
-
-.market{
-  margin-top: 100px;
-  max-height: 100px;
-}
-
-.professionalofferings{
-  margin-top: 100px;
-  max-height: 100px;
-}
-
-
-
-
-.container{
-  margin-top: 100px;
-  max-height: 100px;
-
-}
- }
-
-/* small devices (portrait tablets and large phones, 600px and up*/
- @media (min-width: 600px) {
-  header{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-  header-image{
-    max-height: 100px;
-  }
-  navbar-nav{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-   .offerings{
-    max-height: 100px;
-  }
   
-  .professionalservicescircles{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-  .mycarousel{
-    max-height: 100px;
-  }
-
-.brandsintro{
-  max-height: 100px;
 }
-
-.footer{
-  margin-top: 100px;
-  max-height: 100px;
-}
-
-.market{
-  margin-top: 100px;
-  max-height: 100px;
-}
-
-.professionalofferings{
-  margin-top: 100px;
-  max-height: 100px;
+#missionTxt{
+  position:relative;
+  top: 250px;
+  padding-bottom: 300px;
 }
 
 
+@media (max-width: 425px) { 
 
-.container{
-  margin-top: 100px;
-  max-height: 100px;
-
+  #missionTxt{
+    transform: scale(.9);
+    top: 120px;
+    overflow: visible;
+    padding-bottom: 350px;
+  }
+  .missionheader-image{
+    background-size: 100% 100% contain;
+    height: fit-content;
+  }
+  .float-right{
+    float: none;
+  }
+  .float-left{
+    float: none;
+  }
+  #cardFlex{
+    display: flex;
+    transform: scale(.6);
+    height: fit-content;
+    justify-content: center;
+  }
+  #market{
+    flex-direction: column;
+  }
 }
- }
-
-/* medium devices (landscape tablets, 768px and up*/
- @media (min-width: 768px) {
-  header{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-  header-image{
-    max-height: 100px;
-  }
-  navbar-nav{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-   .offerings{
-    max-height: 100px;
-  }
-  
-  .professionalservicescircles{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-  .mycarousel{
-    max-height: 100px;
-  }
-
-.brandsintro{
-  max-height: 100px;
-}
-
-.footer{
-  margin-top: 100px;
-  max-height: 100px;
-}
-
-.market{
-  margin-top: 100px;
-  max-height: 100px;
-}
-
-.professionalofferings{
-  margin-top: 100px;
-  max-height: 100px;
-}
-
-
-
-
-.container{
-  margin-top: 100px;
-  max-height: 100px;
-
-}
- }
-
- /* large devices (laptops/desktops, 992px and up*/
- @media (min-width: 992px) {
-  header{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-  header-image{
-    max-height: 100px;
-  }
-  navbar-nav{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-   .offerings{
-    max-height: 100px;
-  }
-  
-  .professionalservicescircles{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-  .mycarousel{
-    max-height: 100px;
-  }
-
-.brandsintro{
-  max-height: 100px;
-}
-
-.footer{
-  margin-top: 100px;
-  max-height: 100px;
-}
-
-.market{
-  margin-top: 100px;
-  max-height: 100px;
-}
-
-.professionalofferings{
-  margin-top: 100px;
-  max-height: 100px;
-}
-
-
-
-.container{
-  margin-top: 100px;
-  max-height: 100px;
-
-}
- }
-
-/* extra large devices, large laptops and desktops, 1200px and up*/
- @media (min-width: 1200px) {
-  header{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-  header-image{
-    max-height: 100px;
-  }
-  navbar-nav{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-   .offerings{
-    max-height: 100px;
-  }
-  
-  .professionalservicescircles{
-    margin-top: 100px;
-    max-height: 100px;
-  }
-  .mycarousel{
-    max-height: 100px;
-  }
-
-.brandsintro{
-  max-height: 100px;
-}
-
-.footer{
-  margin-top: 100px;
-  max-height: 100px;
-}
-
-.market{
-  margin-top: 100px;
-  max-height: 100px;
-}
-
-.professionalofferings{
-  margin-top: 100px;
-  max-height: 100px;
-}
-
-
-
-
-.container{
-  margin-top: 100px;
-  max-height: 100px;
-
-}
- }
