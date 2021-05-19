@@ -3,11 +3,8 @@
   width: 100%;
   height: 110vh;
   background-size: 100% 100%;
-  
 }
-body{
-  font-family: Allura;
-}
+
 .missionheader{
   position: fixed;
   z-index: 999;
@@ -22,7 +19,7 @@ body{
   color: white;
   height: 200px;
   width: 100%;
-  font-family: Allura;
+  font-family: 'Radley', serif;
   position: fixed;
   z-index: 999;
   
@@ -30,7 +27,7 @@ body{
 
 div.navbar-nav{
   background-color: #FAA094FF;
-  font-family: Allura;
+  font-family: 'Radley', serif;
   padding: 14px 16px;
   justify-content: space-between;
   font-size: 20px;
@@ -87,7 +84,7 @@ a {
   color: white;
   font-size: 35px;
   height: 200px;
-  font-family: Allura;
+  font-family: 'Radley', serif;
 }
 
 
@@ -109,7 +106,7 @@ a {
   color: white;
   font-size: 35px;
   height: 200px;
-  font-family: Allura;
+  font-family: 'Radley', serif;
   position: fixed;
   top: 50;
   width: 100%;
@@ -130,7 +127,7 @@ a {
   text-align: center;
   color: black;
   font-size: 20px;
-  font-family: Allura;
+  font-family: 'Radley', serif;
 }
 
 .brandsintro{
@@ -138,7 +135,7 @@ a {
   text-align: center;
   color: black;
   font-size: 20px;
-  font-family: Allura;
+  font-family: 'Radley', serif;
 }
 
 .servicesintro{
@@ -146,7 +143,7 @@ a {
   text-align: center;
   color: black;
   font-size: 20px;
-  font-family: Allura;
+  font-family: 'Radley', serif;
 }
 
 .adoptionintro{
@@ -154,7 +151,7 @@ a {
   text-align: center;
   color: black;
   font-size: 20px;
-  font-family: Allura;
+  font-family: 'Radley', 'serif';
 }
 
 .carousel-inner img {
@@ -173,7 +170,7 @@ input[type=text], select, textarea {
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-  font-family: Allura;
+  font-family: 'Radley', 'serif';
   background-color: rgba(255, 255, 255, .15);  
   backdrop-filter: blur(5px);
   
@@ -187,7 +184,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-family: Allura;
+  font-family: 'Radley', 'serif';
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -360,7 +357,7 @@ h3#pro-services {
 .professionalservicescircles{
  
   color: black;
-  font-family: Allura;
+  font-family: 'Radley', serif;
 
 
 }
