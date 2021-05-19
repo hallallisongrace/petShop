@@ -65,6 +65,50 @@ var shop = [
   },
 
 
+  {
+    image: './BrandPhotos/chia-pet-halloween-dog-costume.jpeg',
+    price: '50.00 ',
+    description: "Chia Pet As Seen On TV Small Dog Costume"
+  },
+
+
+  {
+    image: './BrandPhotos/Realistic-Lion-Mane-for-Dogs.jpeg',
+    price: '30.00 ',
+    description: "Faux Lion Fur Mane & Tail Tuft Costume for Large Dogs"
+  },
+
+
+  {
+    image: './BrandPhotos/dogtreats.jpeg',
+    price: '20.00 ',
+    description: "Clear Glass Jar For Animal Treats, Sealed Glass Lid, Durable Design"
+  },
+
+  {
+    image: './BrandPhotos/foggybone.jpeg',
+    price: '10.00 ',
+    description: "Foggy Dog Painted Peonies Natural Dog Squeak Toy"
+  },
+
+
+  {
+    image: './BrandPhotos/bandana.jpeg',
+    price: '15.00 ',
+    description: "Foggy Dog Painted Peonies Natural Dog Bandana"
+  },
+
+
+
+  {
+    image: './BrandPhotos/birdfood.jpeg',
+    price: '20.00 ',
+    description: "Lafeber's Classic Nutri-Berries Pet Bird Food, Made With Non-GMO and Human-Grade Ingredients, for Parrots and Cockatiels"
+  },
+
+
+
+
 ]
     
     var postHTML = " "
@@ -81,10 +125,10 @@ var shop = [
   
   
     for (var i=0; i < shop.length; i++){
-        var heading = '<div class="product items col-sm-12 col-md-4 col-lg-3 mt-5 justify-content: center">';
-        var image = '<img class="img-fluid mb-4" src="' + shop[i].image + '"/';
+        var heading = '<div class="product items col-sm-12 col-md-4 col-lg-3 mt-5 justify-content-center" >';
+        var image = '<img class="img-fluid" src="' + shop[i].image + '"/';
         var price = '<div><p>' + '<span class="price"> $' + shop[i].price + '</span>';
-        var description = shop[i].description + '</p><a class="cart" href="#"><i class="fas fa-cart-plus " id=\'vis\'></a></i> <a class="view pl-3" href="#" target="_blank"> View Item</a></div></div>';
+        var description = shop[i].description + '</p><div class=\'text-center\'><a class="cart" href="#"><i class="fas fa-cart-plus " id=\'vis\'></a></i> <a class="view pl-3" href="#" target="_blank"> View Item</a></div></div>';
         var concatThis = heading + image + price + description;
         postHTML = postHTML + concatThis
     }
