@@ -111,6 +111,10 @@ a {
   top: 50;
   width: 100%;
 }
+#contact{
+  position: relative;
+  top: 330px;
+}
 
 
 
@@ -444,6 +448,13 @@ div.col-md-8.best-text-section {
 
 }
 
+div.navbar {
+  z-index: 2;
+}
+
+div.container#contact {
+  z-index: -99;
+}
 
 @media (max-width: 425px) { 
 
@@ -473,3 +484,6 @@ div.col-md-8.best-text-section {
     flex-direction: column;
   }
 }
+
+
+
